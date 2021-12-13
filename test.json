@@ -1,5 +1,5 @@
 { "compressionlevel":-1,
- "height":100,
+ "height":32,
  "infinite":false,
  "layers":[
         {
@@ -15,7 +15,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":32,
          "x":0,
          "y":0
@@ -161,35 +161,7 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorlayer",
-         "objects":[
-                {
-                 "height":0,
-                 "id":2,
-                 "name":"first_door_state",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"closed_doors"
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"open_doors"
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":144,
-                 "y":566.5
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -263,5 +235,5 @@
  "tilewidth":32,
  "type":"map",
  "version":"1.6",
-  "width": 100
+ "width":32
 }

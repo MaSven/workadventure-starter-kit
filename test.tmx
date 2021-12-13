@@ -56,6 +56,7 @@
  </layer>
  <layer id="3" name="floor" width="32" height="32">
   <properties>
+   <property name="audioLoop" type="bool" value="true"/>
    <property name="collide" type="bool" value="false"/>
    <property name="playAudio" value="http://dig.ccmixter.org/files/Apoxode/62769"/>
   </properties>

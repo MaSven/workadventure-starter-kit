@@ -136,7 +136,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="9" name="Wände" width="32" height="32">
+ <layer id="9" name="Waende" width="32" height="32">
   <properties>
    <property name="collide" type="bool" value="true"/>
   </properties>

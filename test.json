@@ -31,6 +31,11 @@
                  "name":"collide",
                  "type":"bool",
                  "value":false
+                }, 
+                {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":"https:\/\/somafm.com\/m3u\/defcon.m3u"
                 }],
          "type":"tilelayer",
          "visible":true,

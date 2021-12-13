@@ -45,7 +45,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/samplelib.com\/lib\/preview\/mp3\/sample-3s.mp3"
+                 "value":"https:\/\/somafm.com\/m3u\/defcon256.m3u"
                 }],
          "type":"tilelayer",
          "visible":true,

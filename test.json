@@ -35,7 +35,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/somafm.com\/m3u\/defcon.m3u"
+                 "value":"http:\/\/dig.ccmixter.org\/files\/Apoxode\/62769"
                 }],
          "type":"tilelayer",
          "visible":true,

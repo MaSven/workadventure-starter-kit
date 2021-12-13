@@ -40,7 +40,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"http:\/\/dig.ccmixter.org\/files\/Apoxode\/62769"
+                 "value":"https:\/\/samplelib.com\/lib\/preview\/mp3\/sample-3s.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,

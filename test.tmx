@@ -58,7 +58,7 @@
   <properties>
    <property name="audioLoop" type="bool" value="true"/>
    <property name="collide" type="bool" value="false"/>
-   <property name="playAudio" value="http://dig.ccmixter.org/files/Apoxode/62769"/>
+   <property name="playAudio" value="https://samplelib.com/lib/preview/mp3/sample-3s.mp3"/>
   </properties>
   <data encoding="csv">
 123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,

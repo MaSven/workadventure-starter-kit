@@ -4,7 +4,7 @@
   <export target="test.json" format="json"/>
  </editorsettings>
  <properties>
-  <property name="script" value="minified_index.js"/>
+  <property name="script" value="index.js"/>
  </properties>
  <tileset firstgid="1" name="rc3-2021-mullana-ground" tilewidth="32" tileheight="32" tilecount="3600" columns="60">
   <image source="rc3-2021-mullana-ground.png" width="1920" height="1920"/>

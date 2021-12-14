@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="4">
  <editorsettings>
   <export target="test.json" format="json"/>
  </editorsettings>
  <properties>
-  <property name="script" value="https://unpkg.com/@workadventure/scripting-api-extra@^1/dist/bundle.js"/>
+  <property name="script" value="index.js"/>
  </properties>
  <tileset firstgid="1" name="rc3-2021-mullana-ground" tilewidth="32" tileheight="32" tilecount="3600" columns="60">
   <image source="rc3-2021-mullana-ground.png" width="1920" height="1920"/>
@@ -135,5 +135,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="floorlayer"/>
+ <objectgroup id="2" name="floorlayer">
+  <object id="3" x="130" y="401.333">
+   <point/>
+  </object>
+ </objectgroup>
 </map>

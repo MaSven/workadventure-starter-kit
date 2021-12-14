@@ -1137,18 +1137,9 @@
     if (message.includes("Audio{")) {
       const message_parts = message.split("{");
       console.log(message_parts);
-      const audio_file = decodeURI(message_parts[-1]);
-      const audio = WA.sound.loadSound(audio_file);
-      const config = {
-        volume: 0.5,
-        loop: false,
-        rate: 1,
-        detune: 1,
-        delay: 0,
-        seek: 0,
-        mute: false
-      };
-      audio.play(config);
+      const audio_file = (message_parts == null ? void 0 : message_parts.pop()) || "";
+      const audio = WA.sound.loadSound(decodeURI(audio_file));
+      audio.play;
     }
   });
 })();

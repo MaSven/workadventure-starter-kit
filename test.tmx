@@ -56,10 +56,7 @@
  </layer>
  <layer id="3" name="floor" width="32" height="32">
   <properties>
-   <property name="audioLoop" type="bool" value="true"/>
-   <property name="audioVolume" type="float" value="1"/>
    <property name="collide" type="bool" value="false"/>
-   <property name="playAudio" value="https://somafm.com/m3u/defcon256.m3u"/>
   </properties>
   <data encoding="csv">
 123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,

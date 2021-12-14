@@ -28,24 +28,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"audioVolume",
-                 "type":"float",
-                 "value":1
-                }, 
-                {
                  "name":"collide",
                  "type":"bool",
                  "value":false
-                }, 
-                {
-                 "name":"playAudio",
-                 "type":"string",
-                 "value":"https:\/\/somafm.com\/m3u\/defcon256.m3u"
                 }],
          "type":"tilelayer",
          "visible":true,

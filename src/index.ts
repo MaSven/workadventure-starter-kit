@@ -16,7 +16,8 @@ WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 WA.chat.onChatMessage((message: string) => {
     if (message.includes('Audio:')) {
         const message_parts: string[] = message.split(':', 2);
-        const audio_file = message_parts[1];
+        console.log(message_parts);
+        const audio_file = decodeURI(message_parts[1]);
         const audio = WA.sound.loadSound(audio_file);
         const config = {
             volume: 0.5,

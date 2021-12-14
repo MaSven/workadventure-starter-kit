@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "esbuild src/index.ts --bundle --outfile=index.js",
-    "bundling": "esbuild src/index.ts --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16"
+    "bundling": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=minified_index.js"
   },
   "dependencies": {
     "@workadventure/scripting-api-extra": "^1.1.1"

@@ -9,3 +9,5 @@ bootstrapExtra().catch((e: any) => {
 
 
 console.log('Hello world!');
+
+WA.chat.sendChatMessage('Hello world', 'Mr Robot');
